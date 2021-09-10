@@ -7,6 +7,9 @@
 /**
  *
  * @author juliuswilson
+ * 
+ * 
+ * September 7th, 2021
  */
 public class Course {
     
