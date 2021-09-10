@@ -7,22 +7,13 @@
 /**
  *
  * @author juliuswilson
- * 
- * 
- * September 7th, 2021
  */
-
-
-public class Course {
+public class courseAid {
     
-    public static void main (String [] args)
-    {
-        System.out.println("Hello! ");    
-    }
-    
-    
-    
-    
+    // instance variables
+   private String id;
+   private String courseName;
+   private int courseCode;
     
     
     
