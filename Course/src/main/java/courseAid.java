@@ -23,7 +23,7 @@ public class courseAid  // name of the user defined class (or type)
       this.courseCode = 252;
     }
     
-    public courseAid(String courseID, String courseName, int courseCode) // overloaded constructor with three arguments different possible
+    public courseAid(String courseID, String courseName, int courseCode) // overloaded constructor with three arguments and three different possible
                                                                          // values to pass in.
     {
         this.id = courseID;
