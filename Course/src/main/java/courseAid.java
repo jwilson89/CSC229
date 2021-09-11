@@ -8,22 +8,23 @@
  *
  * @author juliuswilson
  */
-public class courseAid 
+public class courseAid  // name of the user defined class (or type)
 
 {
     
-    // instance variables
+    // instance variables -- private to maintain encapsulation
     private String id;
     private String courseName;
     private int courseCode;
     
-    public courseAid() 
+    public courseAid()  // default constructor
     { this.id = "MAT"; 
       this.courseName = "Calculus 3"; 
       this.courseCode = 252;
     }
     
-    public courseAid(String courseID, String courseName, int courseCode)
+    public courseAid(String courseID, String courseName, int courseCode) // overloaded constructor with three arguments different possible
+                                                                         // values to pass in.
     {
         this.id = courseID;
         this.courseName = courseName;
@@ -32,6 +33,8 @@ public class courseAid
     }
     
     
+    
+    // Three Accessor methods - retrieving the value of 3 instance variables
     public String getId()
     {
         return this.id;
@@ -46,6 +49,8 @@ public class courseAid
     {
         return this.courseCode;
     }
+    
+    // Three Mutator methods - changing the value of 3 instance variables
     
     public void setId(String courseID)
     {
