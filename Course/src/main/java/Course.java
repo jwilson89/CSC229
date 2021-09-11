@@ -13,13 +13,32 @@
  */
 
 
+
 public class Course {
     
     public static void main (String [] args)
     {
-        System.out.println("Hello! ");    
+        courseAid collegeCourseOne = new courseAid();
+        courseAid collegeCourseTwo = new courseAid("A32199", "Spanish", 995);
+        courseAid collegeCourseThree = new courseAid("B52", "Linear Algebra", 3093);
+        
+        collegeCourseOne.setId("SDFl90");
+        collegeCourseTwo.setCourseName("Vector Calculus");
+        collegeCourseThree.setCourseCode(3444467);
+
+        
+       System.out.println(collegeCourseOne.getId());
+       System.out.println(collegeCourseTwo.getCourseName());
+       System.out.println(collegeCourseThree.getCourseCode());
+       
+       
+      
+
+
+
+        
     }
-    
+  
     
     
     
