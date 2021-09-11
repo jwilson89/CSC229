@@ -27,10 +27,6 @@ public class Course {
         collegeCourseThree.setCourseCode(3444467);
 
         
-       System.out.println(collegeCourseOne.getId());
-       System.out.println(collegeCourseTwo.getCourseName());
-       System.out.println(collegeCourseThree.getCourseCode());
-       
        
       
 
