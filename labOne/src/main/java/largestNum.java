@@ -15,6 +15,6 @@ public class largestNum {
         largestNum nc = new largestNum();
         int[] arr = { 3, 6, -1, 10, 15,-8};
         int mx = nc.getLargest(arr);
-        System.out.println("Th max is "+ mx);
+        System.out.println("The max is "+ mx);
     }
 }
