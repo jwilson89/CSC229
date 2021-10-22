@@ -35,6 +35,8 @@ public class BinarySearch {
     {
         int arr[] = {10,30,50,70,99,1000};
         runBinarySearchIteratively(arr,99,10,1000);
+        System.out.println("Hello addition to the code");
+        
     }
 
 }
