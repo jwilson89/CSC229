@@ -35,8 +35,12 @@ public class LinearSearch {
     
         public static void main (String [] args)
          {
-             
+             int bin[] {1,2,34,6,77,8};
+             x = search(bin,5);
+             System.out.println(x);
              
          }
+
+        // the time complexity is Big O of n O(n)
     
 }
