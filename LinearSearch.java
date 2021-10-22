@@ -41,6 +41,6 @@ public class LinearSearch {
              
          }
 
-        // the time complexity is Big O of n O(n)
+        // the time complexity is  O(n)
     
 }
