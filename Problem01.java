@@ -14,19 +14,39 @@ public class Problem01 {
     // Todo 04: Develop a method that returns the sum of the prime numbers between 1 and n
     //          Test your solution
     //          Analyze its space and time  
+    int sum = 0; 
     
-    int arr[10];
+    if(isPrime(n))
+    {
+       sum += getSumOfPrimes(n);
+       
+    }
+
+
+    else
+    {
+        return -1;
+    }
+
+    return sum;
+
+    
+    
+}
+
+public static bool isPrime(long n)
+{
+    long arr[10];
     
     if( n % n != 0)
     {
-     int sum += n;
+     long sum += n;
     }
-    
-    
-    
 }
     
 public static void main(String [] arg)
 {
-    
+    x = getSumOfPrimes(1);
 }
+
+// the time complexity is n (log n)
