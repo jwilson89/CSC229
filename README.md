@@ -1,2 +1,5 @@
 # CSC229
-For Data Structures and Algorithms I Fall 2021
+For Data Structures and Algorithms I Spring 2022
+
+
+
